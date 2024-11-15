@@ -1,7 +1,7 @@
 struct ObjectHitbox sFirePiranhaPlantHitbox = {
     /* interactType:      */ INTERACT_BOUNCE_TOP,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 1,
     /* radius:            */ 80,
@@ -18,7 +18,7 @@ f32 D_80331B5C[] = {
 struct ObjectHitbox sPiranhaPlantFireHitbox = {
     /* interactType:      */ INTERACT_FLAME,
     /* downOffset:        */ 10,
-    /* damageOrCoinValue: */ 0,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 0,
     /* radius:            */ 10,
