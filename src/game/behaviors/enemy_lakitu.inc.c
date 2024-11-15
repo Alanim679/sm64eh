@@ -11,7 +11,7 @@
 static struct ObjectHitbox sEnemyLakituHitbox = {
     /* interactType:      */ INTERACT_HIT_FROM_BELOW,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 5,
     /* radius:            */ 50,
