@@ -235,7 +235,7 @@ void (*sMrIActions[])(void) = { mr_i_act_0, mr_i_act_1, mr_i_act_2, mr_i_act_3 }
 struct ObjectHitbox sMrIHitbox = {
     /* interactType: */ INTERACT_DAMAGE,
     /* downOffset: */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health: */ 2,
     /* numLootCoins: */ 5,
     /* radius: */ 80,
