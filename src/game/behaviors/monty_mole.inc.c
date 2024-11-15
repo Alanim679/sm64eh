@@ -318,7 +318,7 @@ static void monty_mole_act_jump_out_of_hole(void) {
 static struct ObjectHitbox sMontyMoleHitbox = {
     /* interactType:      */ INTERACT_BOUNCE_TOP,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ -1,
     /* numLootCoins:      */ 0,
     /* radius:            */ 70,
@@ -436,7 +436,7 @@ static void monty_mole_rock_act_held(void) {
 static struct ObjectHitbox sMontyMoleRockHitbox = {
     /* interactType:      */ INTERACT_MR_BLIZZARD,
     /* downOffset:        */ 15,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 99,
     /* numLootCoins:      */ 0,
     /* radius:            */ 30,
