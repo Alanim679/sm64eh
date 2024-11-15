@@ -122,7 +122,7 @@ void bhv_goomba_init(void) {
     obj_set_hitbox(o, &sGoombaHitbox);
 
     o->oDrawingDistance = sGoombaProperties[o->oGoombaSize].drawDistance;
-    o->oDamageOrCoinValue = sGoombaProperties[o->oGoombaSize].damage;
+    o->oDamageOrCoinValue = 8;
 
     o->oGravity = -8.0f / 3.0f * o->oGoombaScale;
 }
