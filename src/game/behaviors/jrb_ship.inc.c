@@ -3,7 +3,7 @@
 struct ObjectHitbox sSkullSlidingBoxHitbox = {
     /* interactType: */ INTERACT_DAMAGE,
     /* downOffset: */ 0,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health: */ 1,
     /* numLootCoins: */ 0,
     /* radius: */ 130,
