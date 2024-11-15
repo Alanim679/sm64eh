@@ -3,7 +3,7 @@
 static struct ObjectHitbox sBooGivingStarHitbox = {
     /* interactType: */      0,
     /* downOffset: */        0,
-    /* damageOrCoinValue: */ 3,
+    /* damageOrCoinValue: */ 8,
     /* health: */            3,
     /* numLootCoins: */      0,
     /* radius: */            140,
