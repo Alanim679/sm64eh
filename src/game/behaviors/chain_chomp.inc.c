@@ -15,7 +15,7 @@
 static struct ObjectHitbox sChainChompHitbox = {
     /* interactType: */ INTERACT_MR_BLIZZARD,
     /* downOffset: */ 0,
-    /* damageOrCoinValue: */ 3,
+    /* damageOrCoinValue: */ 8,
     /* health: */ 1,
     /* numLootCoins: */ 0,
     /* radius: */ 80,
