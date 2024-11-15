@@ -12,7 +12,7 @@
 static struct ObjectHitbox sSpinyHitbox = {
     /* interactType:      */ INTERACT_MR_BLIZZARD,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 0,
     /* radius:            */ 80,
