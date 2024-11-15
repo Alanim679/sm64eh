@@ -3,7 +3,7 @@
 struct ObjectHitbox sClamShellHitbox = {
     /* interactType:      */ INTERACT_CLAM_OR_BUBBA,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 99,
     /* numLootCoins:      */ 0,
     /* radius:            */ 150,
