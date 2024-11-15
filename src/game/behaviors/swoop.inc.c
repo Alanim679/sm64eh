@@ -10,7 +10,7 @@
 static struct ObjectHitbox sSwoopHitbox = {
     /* interactType:      */ INTERACT_HIT_FROM_BELOW,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 1,
     /* radius:            */ 100,
