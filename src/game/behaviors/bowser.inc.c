@@ -1345,7 +1345,7 @@ void (*sFallingBowserPlatformActions[])(void) = { falling_bowser_plat_act_0,
 struct ObjectHitbox sGrowingBowserFlameHitbox = {
     /* interactType: */ INTERACT_FLAME,
     /* downOffset: */ 20,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health: */ 0,
     /* numLootCoins: */ 0,
     /* radius: */ 10,
@@ -1357,7 +1357,7 @@ struct ObjectHitbox sGrowingBowserFlameHitbox = {
 struct ObjectHitbox sBowserFlameHitbox = {
     /* interactType: */ INTERACT_FLAME,
     /* downOffset: */ 0,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health: */ 0,
     /* numLootCoins: */ 0,
     /* radius: */ 10,
