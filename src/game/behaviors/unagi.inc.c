@@ -3,7 +3,7 @@
 struct ObjectHitbox sUnagiHitbox = {
     /* interactType:      */ INTERACT_CLAM_OR_BUBBA,
     /* downOffset:        */ 50,
-    /* damageOrCoinValue: */ 3,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 99,
     /* numLootCoins:      */ 0,
     /* radius:            */ 150,
