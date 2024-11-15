@@ -3,7 +3,7 @@
 struct ObjectHitbox sSpindriftHitbox = {
     /* interactType: */ INTERACT_BOUNCE_TOP,
     /* downOffset: */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health: */ 1,
     /* numLootCoins: */ 3,
     /* radius: */ 90,
