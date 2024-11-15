@@ -112,7 +112,7 @@ void piranha_plant_act_woken_up(void) {
      * necessary in the US version because it is set to 3 by default and is
      * never changed in the JP version.
      */
-    o->oDamageOrCoinValue = 3;
+    o->oDamageOrCoinValue = 8;
 #endif
     if (o->oTimer == 0)
         func_80321080(50);
