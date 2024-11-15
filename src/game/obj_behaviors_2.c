@@ -709,7 +709,7 @@ static s32 obj_handle_attacks(struct ObjectHitbox *hitbox, s32 attackedMarioActi
         } else {
             attackType = o->oInteractStatus & INT_STATUS_ATTACK_MASK;
 
-            switch (attackHandlers[attackType - 8]) {
+            switch (attackHandlers[attackType - 1]) {
                 case ATTACK_HANDLER_NOP:
                     break;
 
