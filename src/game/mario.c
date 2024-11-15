@@ -1521,7 +1521,7 @@ void update_mario_health(struct MarioState *m) {
                     if ((m->pos[1] >= (m->waterLevel - 140)) && !terrainIsSnow) {
                         m->health += 0x1A;
                     } else if (gDebugLevelSelect == 0) {
-                        m->health -= (terrainIsSnow ? 3 : 1);
+                        m->health -= (terrainIsSnow ? 8 : 8);
                     }
                 }
             }
