@@ -6,7 +6,7 @@
 static struct ObjectHitbox sTreasureChestBottomHitbox = {
     /* interactType:      */ INTERACT_SHOCK,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 0,
     /* radius:            */ 300,
