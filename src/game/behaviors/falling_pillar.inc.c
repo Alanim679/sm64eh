@@ -8,7 +8,7 @@
 static struct ObjectHitbox sFallingPillarHitbox = {
     /* interactType:      */ INTERACT_DAMAGE,
     /* downOffset:        */ 150,
-    /* damageOrCoinValue: */ 3,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ 0,
     /* radius:            */ 150,
