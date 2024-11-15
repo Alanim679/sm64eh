@@ -13,7 +13,7 @@
 static struct ObjectHitbox sWigglerBodyPartHitbox = {
     /* interactType:      */ INTERACT_BOUNCE_TOP,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 3,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 99, // never decreases
     /* numLootCoins:      */ 0,
     /* radius:            */ 20,
@@ -28,7 +28,7 @@ static struct ObjectHitbox sWigglerBodyPartHitbox = {
 static struct ObjectHitbox sWigglerHitbox = {
     /* interactType:      */ INTERACT_BOUNCE_TOP,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 3,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 4,
     /* numLootCoins:      */ 0,
     /* radius:            */ 60,
