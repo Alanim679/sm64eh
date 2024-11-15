@@ -8,7 +8,7 @@ struct Struct80331B30 {
 struct ObjectHitbox sFlyingBookendHitbox = {
     /* interactType:      */ INTERACT_HIT_FROM_BELOW,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 2,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 0,
     /* numLootCoins:      */ -1,
     /* radius:            */ 60,
