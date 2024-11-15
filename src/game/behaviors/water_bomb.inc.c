@@ -15,7 +15,7 @@
 static struct ObjectHitbox sWaterBombHitbox = {
     /* interactType:      */ INTERACT_MR_BLIZZARD,
     /* downOffset:        */ 25,
-    /* damageOrCoinValue: */ 1,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 99,
     /* numLootCoins:      */ 0,
     /* radius:            */ 80,
