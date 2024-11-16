@@ -1,4 +1,4 @@
-4#include <PR/ultratypes.h>
+#include <PR/ultratypes.h>
 
 #include "../sm64ap.h"
 #include "area.h"
