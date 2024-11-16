@@ -989,7 +989,7 @@ s32 act_burning_jump(struct MarioState *m) {
     m->particleFlags |= PARTICLE_FIRE;
     play_sound(SOUND_MOVING_LAVA_BURN, m->marioObj->header.gfx.cameraToObject);
 
-    m->marioObj->oMarioBurnTimer += 9;
+    m->marioObj->oMarioBurnTimer += 0;
 
     m->health -= 10;
     if (m->health < 0x100) {
