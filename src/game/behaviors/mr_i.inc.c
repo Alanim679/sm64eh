@@ -16,7 +16,7 @@ void mr_i_piranha_particle_act_0(void) {
     o->oForwardVel = 20.0f;
     cur_obj_update_floor_and_walls();
     if (0x8000 & o->oInteractStatus)
-        o->oAction = 1;
+        o->oAction = 8;
     else if ((o->oTimer >= 101) || (o->oMoveFlags & OBJ_MOVE_HIT_WALL) || o->activeFlags & ACTIVE_FLAG_IN_DIFFERENT_ROOM) {
         obj_mark_for_deletion(o);
         spawn_mist_particles();
