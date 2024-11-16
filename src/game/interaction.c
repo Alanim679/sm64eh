@@ -679,7 +679,7 @@ u32 should_push_or_pull_door(struct MarioState *m, struct Object *o) {
 
 u32 take_damage_from_interact_object(struct MarioState *m) {
     s32 shake;
-    s32 damage = m->interactObj->oDamageOrCoinValue;
+    s32 damage = m->interactObj->oDamageOrCoinValue = 8;
     
     if (damage >= 4) {
         shake = SHAKE_LARGE_DAMAGE;
