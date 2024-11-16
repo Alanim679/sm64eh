@@ -2596,7 +2596,7 @@ const BehaviorScript bhvBub[] = {
     ANIMATE(0),
     SET_HITBOX_WITH_OFFSET(/*Radius*/ 20, /*Height*/ 10, /*Downwards offset*/ 10),
     SET_INTERACT_TYPE(INTERACT_DAMAGE),
-    SET_INT(oDamageOrCoinValue, 1),
+    SET_INT(oDamageOrCoinValue, 8),
     SET_HOME(),
     SET_INT(oIntangibleTimer, 0),
     BEGIN_LOOP(),
