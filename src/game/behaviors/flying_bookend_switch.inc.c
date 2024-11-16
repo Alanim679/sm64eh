@@ -26,7 +26,7 @@ struct Struct80331B30 D_80331B30[] = {
 struct ObjectHitbox sBookSwitchHitbox = {
     /* interactType:      */ INTERACT_BREAKABLE,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 0,
+    /* damageOrCoinValue: */ 8,
     /* health:            */ 99,
     /* numLootCoins:      */ 0,
     /* radius:            */ 20,
